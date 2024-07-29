@@ -40,3 +40,12 @@ const options = {
       });
     })
     .catch(error => console.error('Error:', error));
+
+    function searchMovies() {
+      const searchInput = document
+        .getElementById("searchInput")
+        .value.trim()
+        .toLowerCase();
+      const movieCards = document.querySelectorAll(".movie-card");
+      const title = document.querySelector;
+    }

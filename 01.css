@@ -1,0 +1,19 @@
+#movie-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 400px;
+  }
+  .movie-card p,
+  .movie-card span {
+    color: black;
+  }
+
+  .movie-card {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
